@@ -3,90 +3,404 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechnoAI Research</title>
-    
+    <title>TechnoAI Research Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<link rel="stylesheet" href="styling.css">
 <body>
-    <header>TechnoAI Research</header>
-    <nav>
-        <img src="logo.png" alt="TechnoAI Logo" class="logo">
-        <div class="nav-links">
-            <a href="#about">About</a>
-            <a href="#research">Research</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+    <!-- Sticky CTA Bar -->
+    <div class="sticky-cta">
+        <div class="container">
+            <div class="sticky-cta-text">
+                <i class="fas fa-headset"></i>
+                <span>Need help? Chat with an expert now or call us at +44-7861-011-066</span>
+            </div>
+            <div class="sticky-cta-btns">
+                <a href="#" class="btn btn-accent">Chat Now</a>
+                <a href="#" class="btn btn-outline" style="color: white; border-color: white;">Contact Sales</a>
+            </div>
         </div>
-        <div class="nav-buttons">
-            <button class="search-btn">🔍</button>
-            <button class="trial-btn">Start Trial</button>
-        </div>
-    </nav>
+    </div>
 
-    <section id="about">
-        <div class="about-container">
-            <div class="about-text">
-                Innovating AI for a Smarter Future"<br>
-                At TechnoAI Research, we strive to push the boundaries of artificial intelligence, ensuring ethical and
-                transformative solutions for all.
-            </div>
-            <div class="about-image">
-                <img src="logo.jpg" alt="AI Innovation">
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone-alt"></i> +44-7861-011-066</span>
+                </div>
+                <div class="top-links">
+                    <a href="#"><i class="fas fa-user"></i> Sign In</a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                    <a href="#"><i class="fas fa-search"></i> Search</a>
+                </div>
             </div>
         </div>
-        <div class="about-features">
-            <div class="feature">
-                <img src="AiDevelopment.jpg" alt="AI Development">
-                <p>Cutting-edge AI Development</p>
-            </div>
-            <div class="feature">
-                <img src="EthicalAi.png" alt="Ethical AI">
-                <p>Ethical AI Practices</p>
-            </div>
-            <div class="feature">
-                <img src="FutureAi.jpg" alt="Future Innovation">
-                <p>Future-Ready Innovations</p>
+        <div class="container">
+            <nav class="main-nav">
+                <!-- Modified Logo Line -->
+                <a href="#" class="logo" style="margin-right: auto; padding-right: 20px;">
+                    <img src="./Assets/Photos/logo3.png" alt="TechnoAI Logo">
+                </a>
+                <ul class="nav-links">
+                    <li class="dropdown">
+                        <a href="/solution.html">Solutions <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content mega-menu">
+                            <div class="mega-menu-col">
+                                <h4>Network Solutions</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Enterprise Networking</a></li>
+                                    <li><a href="#">SD-WAN Solutions</a></li>
+                                    <li><a href="#">Edge Computing</a></li>
+                                    <li><a href="#">Internet Services</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Cloud Solutions</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Cloud Connectivity</a></li>
+                                    <li><a href="#">Managed Cloud</a></li>
+                                    <li><a href="#">Hybrid Cloud</a></li>
+                                    <li><a href="#">Cloud Applications</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Security Solutions</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Network Security</a></li>
+                                    <li><a href="#">DDoS Protection</a></li>
+                                    <li><a href="#">Threat Management</a></li>
+                                    <li><a href="#">Compliance</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Collaboration</h4>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Unified Communications</a></li>
+                                    <li><a href="#">Contact Center</a></li>
+                                    <li><a href="#">Video Conferencing</a></li>
+                                    <li><a href="#">Voice Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Products <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Internet Services</a>
+                            <a href="#">Voice Services</a>
+                            <a href="#">Managed Services</a>
+                            <a href="#">Network Equipment</a>
+                            <a href="#">Security Products</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Accelerate your digital transformation</h2>
+        <p>TechnoAI Research Solution connects the digital world with next-gen network,<br />
+        cloud, and security solutions that help businesses deliver<br />
+        amazing applications and data.</p>
+        <ul class="actions special">
+            <li><a href="#" class="button primary">Get Started</a></li>
+            <li><a href="#" class="button">Learn More</a></li>
+        </ul>
+    </div>
+    <a href="#one" class="more scrolly">Learn More</a>
+</section>
+
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>500,000+</h3>
+                    <p>Enterprise Customers</p>
+                </div>
+                <div class="stat-item">
+                    <h3>450,000</h3>
+                    <p>Route Fiber Miles</p>
+                </div>
+                <div class="stat-item">
+                    <h3>60+</h3>
+                    <p>Countries Served</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>Global Support</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="research">
-        <h2>Our Research</h2>
-        <div class="research-video">
-            <video src="Introduction.mp4" muted loop onmouseover="this.play()"
-                onmouseout="this.pause(); this.currentTime=0;"></video>
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Solutions</h2>
+                <p>Discover how TechnoAI Research can help your business with our comprehensive suite of services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="service-content">
+                        <h3>Network Solutions</h3>
+                        <p>High-performance networking solutions to connect your business anywhere in the world with unmatched reliability and speed.</p>
+                        <a href="#" class="btn btn-outline">Explore Solutions</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="service-content">
+                        <h3>Cloud Services</h3>
+                        <p>Scalable cloud solutions to power your applications and data storage needs with flexible deployment options.</p>
+                        <a href="#" class="btn btn-outline">Explore Solutions</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('https://via.placeholder.com/400x200');"></div>
+                    <div class="service-content">
+                        <h3>Security Solutions</h3>
+                        <p>Comprehensive security to protect your business from evolving threats with advanced threat detection and prevention.</p>
+                        <a href="#" class="btn btn-outline">Explore Solutions</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-list">
-            <div class="service-item">
-                <img src="Aiconsulting.jpg" alt="Service 1">
-                <p>AI Consulting</p>
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose TechnoAI Research</h2>
+                <p>We deliver the solutions you need to stay ahead in today's digital economy</p>
             </div>
-            <div class="service-item">
-                <img src="ML.jpg" alt="Service 2">
-                <p>Machine Learning Solutions</p>
-            </div>
-            <div class="service-item">
-                <img src="DataAnalytics.jpg" alt="Service 3">
-                <p>Data Analytics</p>
-            </div>
-            <div class="service-item">
-                <img src="AiAutomation.jpg" alt="Service 4">
-                <p>AI Automation</p>
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Network</h3>
+                    <p>One of the largest fiber networks spanning 60+ countries with low-latency connectivity</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Enterprise Security</h3>
+                    <p>Advanced security solutions to protect your business from edge to cloud</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Dedicated support team available around the clock to assist you</p>
+                </div>
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Scalable Solutions</h3>
+                    <p>Flexible services that grow with your business needs and demands</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-container">
-            <div class="subscription">
-                <input type="email" placeholder="Enter your email">
-                <button>Subscribe</button>
+    <!-- Case Studies -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-title">
+                <h2>Customer Success Stories</h2>
+                <p>See how businesses like yours are transforming with TechnoAI Research solutions</p>
             </div>
+            <div class="case-studies-grid">
+                <div class="case-study-card">
+                    <div class="case-study-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="case-study-content">
+                        <span class="industry">Financial Services</span>
+                        <h3>Global Bank Enhances Security and Performance</h3>
+                        <p>How a leading financial institution leveraged TechnoAI Research's network and security solutions to protect customer data and improve transaction speeds.</p>
+                        <a href="#" class="btn btn-outline">Read Case Study</a>
+                    </div>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="case-study-content">
+                        <span class="industry">Healthcare</span>
+                        <h3>Hospital Network Improves Patient Care</h3>
+                        <p>A healthcare provider implemented TechnoAI Research's edge computing solutions to enable real-time data analysis for better patient outcomes.</p>
+                        <a href="#" class="btn btn-outline">Read Case Study</a>
+                    </div>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="case-study-content">
+                        <span class="industry">Retail</span>
+                        <h3>Retail Chain Optimizes Omnichannel Experience</h3>
+                        <p>How a national retailer used TechnoAI Research's SD-WAN and cloud solutions to unify their in-store and online customer experiences.</p>
+                        <a href="#" class="btn btn-outline">Read Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest News & Insights</h2>
+                <p>Stay informed with our latest updates, trends, and industry insights</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="news-content">
+                        <div class="news-date">June 15, 2023</div>
+                        <h3>TechnoAI Research Announces New Edge Computing Solutions</h3>
+                        <p>Discover how our new edge computing platform can help businesses process data closer to the source for faster insights.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="news-content">
+                        <div class="news-date">May 28, 2023</div>
+                        <h3>The Future of Hybrid Work: Security Considerations</h3>
+                        <p>Learn about the security challenges of hybrid work environments and how to address them effectively.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('https://via.placeholder.com/600x400');"></div>
+                    <div class="news-content">
+                        <div class="news-date">May 10, 2023</div>
+                        <h3>TechnoAI Research Recognized as Leader in Network Services</h3>
+                        <p>For the third consecutive year, TechnoAI Research has been named a leader in the Gartner Magic Quadrant for Network Services.</p>
+                        <a href="#" class="btn btn-outline">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to transform your business?</h2>
+            <p>Our experts are here to help you find the right solutions for your unique needs.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn btn-accent">Contact Sales</a>
+                <a href="#" class="btn btn-outline" style="color: white; border-color: white;">Request a Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Network Solutions</a></li>
+                        <li><a href="#">Cloud Solutions</a></li>
+                        <li><a href="#">Security Solutions</a></li>
+                        <li><a href="#">Collaboration</a></li>
+                        <li><a href="#">Edge Computing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Internet Services</a></li>
+                        <li><a href="#">Voice Services</a></li>
+                        <li><a href="#">Managed Services</a></li>
+                        <li><a href="#">Network Equipment</a></li>
+                        <li><a href="#">Security Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Industries</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Financial Services</a></li>
+                        <li><a href="#">Healthcare</a></li>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Government</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Whitepapers</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">API Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <h3 style="margin-top: 30px;">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">System Status</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Acceptable Use Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                </div>
+                <p>&copy; 2025 TechnoAI Research Technologies. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
             <div class="ceo-section">
                 <img src="ceo.png" alt="CEO">
                 <p>Dr. Francis Appiah</p>
@@ -98,7 +412,7 @@
     </section>
 
     <footer>
-        &copy; 2025 TechnoAI Research. All rights reserved.
+       <p>&copy; 2025 TechnoAI Research Technologies. All Rights Reserved.</p>
     </footer>
 </body>
 
